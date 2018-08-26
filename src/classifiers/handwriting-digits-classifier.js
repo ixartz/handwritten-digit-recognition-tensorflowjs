@@ -67,10 +67,10 @@ export default class HandwritingDigitsClassifier {
   }
 
   * loadModel() {
-    const { host } = window.location;
+    const { host, protocol } = window.location;
 
     this.model = yield tf.loadModel(
-      `http://${host}/${HandwritingDigitsClassifier.CLASSIFIER_FOLDER}/${
+      `${protocol}//${host}/${HandwritingDigitsClassifier.CLASSIFIER_FOLDER}/${
         HandwritingDigitsClassifier.CLASSIFIER_NAME
       }.json`,
     );
