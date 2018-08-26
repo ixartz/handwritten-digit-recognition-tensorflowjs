@@ -21,7 +21,11 @@ const AFooter = styled.a`
 const MnistFooter = () => (
   <Footer>
     <PFooter>
-      <AFooter href="https://github.com/ixartz/handwritten-digit-recognition-tensorflowjs" target="_blank" rel="noreferrer noopener">
+      <AFooter
+        href="https://github.com/ixartz/handwritten-digit-recognition-tensorflowjs"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
         <IconFooter type="github" />
       </AFooter>
       This page is made with Tensorflow.js, Mnist dataset, React, Redux, Redux-Saga, Babel, Webpack,

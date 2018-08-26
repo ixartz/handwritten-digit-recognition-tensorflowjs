@@ -1,4 +1,4 @@
-module.exports = (env) => {
+module.exports = env => {
   if (env.WEBPACK_CONFIG == 'dev') {
     return require('./webpack/webpack.dev.js');
   }
