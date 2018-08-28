@@ -8,13 +8,13 @@ A demo is available at this location: [https://digit-recognition.ixartz.com](htt
 
 This project is based on JavaScript environment and you need to install dependencies with Yarn or NPM:
 
-  $ yarn install
+    $ yarn install
 
 ## Launch locally
 
-  $ yarn start
-  $ Open https://localhost:9000 with your favorite browser
+    $ yarn start
+    $ Open https://localhost:9000 with your favorite browser
 
 ## Build for production
 
-  $ yarn build
+    $ yarn build
