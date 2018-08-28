@@ -3,7 +3,13 @@
   command = 'yarn build'
 
 [[redirects]]
-  from = "/*"
+  from = "http://digit-recognition.netlify.com/*"
+  to = "https://digit-recognition.ixartz.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://digit-recognition.netlify.com/*"
   to = "https://digit-recognition.ixartz.com/:splat"
   status = 301
   force = true
