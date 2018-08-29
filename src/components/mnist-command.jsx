@@ -4,9 +4,7 @@ import ConfirmRetrainButton from '../containers/confirm-retrain-button';
 
 const MnistCommand = () => (
   <div>
-    <ClearButton>
-Clear
-    </ClearButton>
+    <ClearButton>Clear</ClearButton>
     <ConfirmRetrainButton />
   </div>
 );

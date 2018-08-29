@@ -9,7 +9,8 @@
     "http-server": "http-server -p 9000 ./dist",
     "serve": "yarn build && yarn http-server",
     "serve-analyze": "webpack --env.WEBPACK_CONFIG=analyze --progress && yarn http-server",
-    "build-stats": "webpack --env.WEBPACK_CONFIG=prod --progress --profile --json > stats.json"
+    "build-stats": "webpack --env.WEBPACK_CONFIG=prod --progress --profile --json > stats.json",
+    "test": "eslint --ext .jsx,.js src/**"
   },
   "keywords": [],
   "author": "",

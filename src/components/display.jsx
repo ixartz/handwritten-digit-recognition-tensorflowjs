@@ -81,9 +81,7 @@ export class Display extends React.Component {
     return (
       <DisplayRow>
         <CenterCol span={24}>
-          <H3>
-            {title}
-          </H3>
+          <H3>{title}</H3>
         </CenterCol>
         <CenterCol span={24}>
           <Canvas

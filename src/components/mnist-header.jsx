@@ -18,9 +18,7 @@ const WhiteHeader = styled(Header)`
 
 const MnistHeader = () => (
   <WhiteHeader>
-    <H1>
-Digit Recognition with Tensorflow.js and React
-    </H1>
+    <H1>Digit Recognition with Tensorflow.js and React</H1>
   </WhiteHeader>
 );
 

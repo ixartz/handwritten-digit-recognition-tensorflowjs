@@ -132,15 +132,17 @@ export default class Drawing extends React.Component {
 
   render() {
     return (
-      <Canvas
-        innerRef={this.setCanvasRef}
-        onPointerDown={this.onMouseDown}
-        onPointerMove={this.onMouseMove}
-        onPointerUp={this.onStrokeEnd}
-        onMouseLeave={this.onStrokeEnd}
-        width="280"
-        height="280"
-      />
+      <div touch-action="none">
+        <Canvas
+          innerRef={this.setCanvasRef}
+          onPointerDown={this.onMouseDown}
+          onPointerMove={this.onMouseMove}
+          onPointerUp={this.onStrokeEnd}
+          onMouseLeave={this.onStrokeEnd}
+          width="280"
+          height="280"
+        />
+      </div>
     );
   }
 }

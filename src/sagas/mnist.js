@@ -1,20 +1,20 @@
 import * as tf from '@tensorflow/tfjs';
 import {
-  call, put, take, apply,
+  apply, call, put, take,
 } from 'redux-saga/effects';
+import { resetChart } from '../actions/chart';
+import { resetDrawing } from '../actions/drawing';
 import {
-  loadPretrainedModelSucceeded,
   loadAndTrainMnistSucceeded,
+  loadingMnist,
+  loadPretrainedModelSucceeded,
   MnistAction,
   predictSucceeded,
   trainingMnist,
-  loadingMnist,
 } from '../actions/mnist';
 import HandwritingDigitsClassifier from '../classifiers/handwriting-digits-classifier';
 import MnistData from '../data/mnist-data';
 import { convertToGrayscale } from '../utils/image-processing';
-import { resetChart } from '../actions/chart';
-import { resetDrawing } from '../actions/drawing';
 
 function* trainMnist(mnistData) {
   yield put(trainingMnist());
