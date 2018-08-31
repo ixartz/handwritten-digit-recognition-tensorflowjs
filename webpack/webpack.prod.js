@@ -54,7 +54,9 @@ module.exports = merge.smartStrategy({
       inlineSource: 'runtime.+\\.js',
     }),
     new InlineSourcePlugin(),
-    new AsyncStylesheetWebpackPlugin(),
+    new AsyncStylesheetWebpackPlugin({
+      preloadPolyfill: true,
+    }),
     new WebpackCdnPlugin({
       modules: [
         { name: 'react', var: 'React', path: 'umd/react.production.min.js' },
