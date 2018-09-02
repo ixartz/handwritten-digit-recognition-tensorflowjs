@@ -6,7 +6,11 @@ A demo is available at this location: [https://digit-recognition.ixartz.com](htt
 
 ### Videos
 
+Phone (iOS and Android) version:
+
 ![Demo on phone](https://digit-recognition.ixartz.com/images/phone.gif)
+
+Desktop version:
 
 ![Demo on desktop](https://digit-recognition.ixartz.com/images/desktop.gif)
 
