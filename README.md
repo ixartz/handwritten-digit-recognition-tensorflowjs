@@ -4,6 +4,12 @@ Digit recognition built with Tensorflow.js, Mnist dataset, React, Redux, Redux-S
 
 A demo is available at this location: [https://digit-recognition.ixartz.com](https://digit-recognition.ixartz.com).
 
+### Videos
+
+![Demo on phone](https://digit-recognition.ixartz.com/images/phone.gif)
+
+![Demo on desktop](https://digit-recognition.ixartz.com/images/desktop.gif)
+
 ## Setup environment
 
 This project is based on JavaScript environment and you need to install dependencies with Yarn or NPM:

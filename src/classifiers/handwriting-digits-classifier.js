@@ -13,7 +13,7 @@ export default class HandwritingDigitsClassifier {
 
   static LEARNING_RATE = 0.15;
 
-  static CLASSIFIER_FOLDER = 'classifier';
+  static CLASSIFIER_FOLDER = 'classifiers';
 
   static CLASSIFIER_NAME = 'handwriting-digits-classifier';
 
