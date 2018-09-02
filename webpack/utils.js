@@ -6,7 +6,7 @@ const DIST_DIR = path.resolve(ROOT_DIR, 'dist');
 
 function generateHtmlWebpackPluginConfig() {
   return {
-    title: 'Tensorflow',
+    title: 'Live digit recognition for phone and desktop written in JavaScript',
     template: path.resolve(ROOT_DIR, 'templates/index.html'),
   };
 }
