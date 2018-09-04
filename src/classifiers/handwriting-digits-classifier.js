@@ -15,7 +15,7 @@ export default class HandwritingDigitsClassifier {
 
   static CLASSIFIER_FOLDER = 'classifiers';
 
-  static CLASSIFIER_NAME = 'handwriting-digits-classifier';
+  static CLASSIFIER_NAME = 'handwriting-digits-classifier-v2';
 
   initializeModel(data) {
     this.data = data;
@@ -120,7 +120,7 @@ export default class HandwritingDigitsClassifier {
     }
 
     if (save) {
-      this.model.save(`downloads://${HandwritingDigitsClassifier.CLASSIFIER_NAME}`);
+      yield this.model.save(`downloads://${HandwritingDigitsClassifier.CLASSIFIER_NAME}`);
     }
   }
 
