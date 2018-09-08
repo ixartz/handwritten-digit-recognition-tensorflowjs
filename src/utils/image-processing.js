@@ -27,7 +27,8 @@ export function convertToGrayscale(image) {
   for (let i = 0; i < image.width * image.height; i += 1) {
     const j = i * 4;
     const avg = (data[j + 0] + data[j + 1] + data[j + 2]) / 3;
-    dataGrayscale.push(avg);
+    const normalized = avg / 255.0;
+    dataGrayscale.push(normalized);
   }
 
   return dataGrayscale;

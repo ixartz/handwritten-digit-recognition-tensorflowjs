@@ -11,8 +11,8 @@ const PWarning = styled.p`
 const content = (
   <div>
     <p>
-      The system has already loaded a pretrained model. If you want to train a new model, please
-      click on continue button.
+      The system has already loaded a pretrained model with 0.99700 accuracy. If you want to train a
+      new model, please click on continue button.
     </p>
     <PWarning>
       It is unrecommended to run the training on your phone. The process will drain your battery.
