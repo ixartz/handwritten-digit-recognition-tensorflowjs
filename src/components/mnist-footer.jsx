@@ -29,7 +29,12 @@ const MnistFooter = () => (
         <IconFooter type="github" />
       </AFooter>
       This page is made with Tensorflow.js, Mnist dataset, React, Redux, Redux-Saga, Babel, Webpack,
-      Styled-components, Eslint, Prettier and Ant Design
+      Styled-components, Eslint, Prettier and Ant Design - Author:
+      {' '}
+      {/* eslint-disable-next-line react/jsx-no-target-blank */}
+      <a href="https://blog.ixartz.com/" target="_blank" rel="noopener">
+        Ixartz
+      </a>
     </PFooter>
   </Footer>
 );
