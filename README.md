@@ -28,3 +28,7 @@ This project is based on JavaScript environment and you need to install dependen
 ## Build for production
 
     $ yarn build
+
+## Author
+
+[Ixartz's technical blog](https://blog.ixartz.com/)
